@@ -1,0 +1,179 @@
+{
+	"name": "EZR Monokai Theme",
+	"semanticHighlighting": true,
+	"colors": {
+		"editor.background": "#25292C",
+		"editor.foreground": "#eeffff",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#757D82",
+		"sideBar.background": "#1D2123"
+	},
+	"tokenColors": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "settings": {
+        "foreground": "#5C6166"
+      }
+    },
+
+	{
+		"name": "KeyWords Constant, let and Var",
+		"scope": "storage.type",
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "User Variables",
+		"scope": ["meta.var-single-variable.expr", "variable.other.readwrite.js", "variable.other.object", "support.type.object.module.js", "variable.parameter.js"],
+		"settings": {
+			"foreground": "#FD971E",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "Arrow Function Declaration",
+		"scope": "storage.type.function.arrow.js",
+		"settings": {
+			"foreground": "#ffffff",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "Function Name",
+		"scope": "entity.name.function.js",
+		"settings": {
+			"foreground": "#A6E22E",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "String Declaration",
+		"scope": ["punctuation.definition.string.begin.js","punctuation.definition.string.end.js", "string.quoted.double.js", "string.template.js", "punctuation.definition.string.begin.json", "punctuation.definition.string.end.json", "string.quoted.double.json"],
+		"settings": {
+			"foreground": "#E2D873",
+			"fontStyle": "bold"
+		}
+
+	},
+
+	{
+		"name": "Declaration, Boolean, Numerical",
+		"scope": ["constant.numeric.decimal.js", "constant.language.boolean.true", "constant.language.boolean.false", "constant.language.json"],
+		"settings": {
+			"foreground": "#AE81FF",
+			"fontStyle": "bold"
+		}
+	},
+
+	
+	{
+		"name": "Class Declaration",
+		"scope": ["entity.name.type.class"],
+		"settings": {
+			"foreground": "#66D9EF",
+			"fontStyle": "bold"
+		}
+
+	},
+
+	{
+		"name": "This props",
+		"scope":["variable.language.this.js"],
+		"settings": {
+			"foreground": "#A6E22E",
+			"fontStyle": "bold"
+		}
+	},
+	
+	{
+		"name": "Class variables",
+		"scope":["meta.class", "variable.other.property.js", "variable.object.property.js"],
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "Class Operators",
+		"scope":["meta.class", "punctuation.accessor.js", "punctuation.definition.block.js"],
+		"settings": {
+			"foreground": "#ffffff",
+			
+		}
+	},
+
+	{
+		"name": "Keyword \"new\"",
+		"scope": [
+			"keyword.control.new",
+			"keyword.operator.new",
+		],
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "Methods Modifiers ( async, await) ",
+		"scope": [
+			"storage.modifier.async",
+			"keyword.control.flow",
+		],
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "bold"
+		}
+	},
+
+
+	{
+		"name": "Control Conditionals",
+		"scope": [
+			"keyword.control.conditional",
+			"keyword.control.trycatch.js",
+		],
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "Keyword  \"instanceOf\"",
+		"scope": [
+			"keyword.operator.expression.instanceof.js",
+		],
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "bold"
+		}
+	},
+
+	{
+		"name": "Json Declaration",
+		"scope": ["support.type.property-name.json"],
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "bold"
+		}
+	}, 
+
+	{
+		"name": "object Declaration",
+		"scope": ["entity.name.label.js"],
+		"settings": {
+			"foreground": "#F92572",
+		}
+	}
+ 
+  ]
+}

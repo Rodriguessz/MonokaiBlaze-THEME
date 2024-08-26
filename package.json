@@ -1,0 +1,21 @@
+{
+  "name": "ezr-monokai-theme",
+  "displayName": "EZR Monokai Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "EZR Monokai Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/EZR Monokai Theme-color-theme.json"
+      }
+    ]
+  }
+}
