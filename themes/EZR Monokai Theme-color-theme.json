@@ -243,6 +243,14 @@
       }
   },
 
+  {
+      "name": "Keyword",
+      "scope": ["keyword", "meta.function"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+
 	//#region Variable Declaration && Variable Name
 
 	{
@@ -303,6 +311,15 @@
 		},
 
     {
+			"name": "Property Object",
+			"scope": "variable.other.property",
+			"settings": {
+				"foreground": "#F92572",
+			}
+		},
+
+
+    {
 			"name": "Json Key Declaration",
 			"scope": ["support.type.property-name.json", "punctuation.support.type.property-name.begin.json", "punctuation.support.type.property-name.end.json"],
 			"settings": {
@@ -330,10 +347,17 @@
 				"foreground": "#ffffff",
 			}
 		},
-	
+
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FD971F"
+      }
+    },
 	//#endregion
   
-
   //#region Class Declaration and Support Functions
 		{
 			"name": "User Class name",
@@ -362,56 +386,17 @@
 			}
 		},
 
-    
-	
+    {
+			"name": "Keyword \"this\"",
+			"scope": "variable.language.this",
+			"settings": {
+				"foreground": "#A6E22E",
+        "fontStyle": "italic"
+			}
+		},
 	//#endregion
    
-   
-   
-   
-   
-   
-   
-   
-   
-    {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
-    {
-      "name": "Storage",
-      "scope": "storage",
-      "settings": {
-        "foreground": "#F92672"
-      }
-    },
   
-    {
-      "name": "Inherited class",
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "Function name",
-      "scope": "entity.name.function",
-      "settings": {
-        "foreground": "#A6E22E"
-      }
-    },
-    {
-      "name": "Function argument",
-      "scope": "variable.parameter",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FD971F"
-      }
-    },
     {
       "scope": [
         "variable.function",
