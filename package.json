@@ -1,8 +1,8 @@
 {
   "name": "ezr-monokai-theme",
   "displayName": "EZR Monokai Theme",
-  "description": "",
-  "version": "0.0.1",
+  "description": "The EZR Monokai is a theme inspired on KTRZ Monokai for ZED IDE, but in VScode!",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.92.0"
   },
