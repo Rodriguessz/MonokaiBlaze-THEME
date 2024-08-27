@@ -224,10 +224,12 @@
     "tree.indentGuidesStroke": "#5c6166",
     "widget.shadow": "#00000033"
   },
+  "semanticHighlighting": true,
 
   "tokenColors": [
 
-	{
+  //#region Base Schemas and Colors
+{
 			"name": "General punctuation",
 			"scope": ["punctuation", "keyword.operator"],
 			"settings": {
@@ -250,12 +252,13 @@
         "foreground": "#F92672"
       }
     },
+//#endregion
 
 	//#region Variable Declaration && Variable Name
 
 	{
       "name": "Variable declaration",
-      "scope": "storage.type",
+      "scope": ["storage.type", "storage.modifier"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#F92572"
@@ -269,6 +272,18 @@
         "foreground": "#FD971E"
       }
     },
+
+    // PHP //
+
+    {
+      "name": "Super Globals Variable",
+      "scope": "variable.other.global",
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+
+    
 
 	//#endregion
 	
@@ -301,6 +316,21 @@
     },
 	//#endregion
 	
+  //#region Keyword Operators
+  // JavaScript //
+  {
+		"name": "Keyword Operators",
+		"scope": [
+			"keyword.operator.expression.instanceof",
+			"keyword.operator.expression.typeof",
+     
+		],
+		"settings": {
+			"foreground": "#F92572",
+			"fontStyle": "italic bold"
+		}
+	},
+  //#endregion
 	//#region Object and Json Declaration, Keys and Values
 		{
 			"name": "Object Key Declaration",
@@ -312,12 +342,11 @@
 
     {
 			"name": "Property Object",
-			"scope": "variable.other.property",
+			"scope": ["variable.other.property", "support.variable.property"],
 			"settings": {
 				"foreground": "#F92572",
 			}
 		},
-
 
     {
 			"name": "Json Key Declaration",
@@ -327,6 +356,17 @@
         "fontStyle": "italic"
 			}
 		},
+
+    // JavaScript //
+
+    {
+      "name": "Module Exports",
+      "scope": ["support.type.object.module.js"],
+      "settings": {
+        "foreground": "#F92672",
+        "fontStyle": "italic"
+      }
+    },
 
 		
 	//#endregion
@@ -356,12 +396,26 @@
         "foreground": "#FD971F"
       }
     },
+
+    // PHP //
+  {
+        "name": "PHP namespace",
+        "scope":["entity.name.type.namespace", "support.other.namespace"],
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#F92572"
+        }
+    },
+
+
+      
+
 	//#endregion
   
   //#region Class Declaration and Support Functions
 		{
 			"name": "User Class name",
-			"scope": "entity.name.type.class",
+			"scope": ["entity.name.type.class", "meta.class"],
 			"settings": {
 				"foreground": "#66D9EF",
         "fontStyle": "italic"
@@ -394,10 +448,104 @@
         "fontStyle": "italic"
 			}
 		},
-	//#endregion
-   
-  
+
+  // PHP //
     {
+			"name": "PHP Keyword \"this\"",
+			"scope": "variable.language.this.php",
+			"settings": {
+				"foreground": "#FD971E",
+        "fontStyle": "italic"
+			}
+		},
+
+     {
+      "name": "Support function PHP",
+      "scope": ["support.function.constructor.php", "support.function.string.php", "support.function.array.php"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#A6E22E"
+      }
+    },
+
+    {
+      "name": "Support Class PHP",
+      "scope": ["support.class.php"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#F92572"
+      }
+    },
+
+    {
+			"name": "PHP Keyword \"echo\"",
+			"scope": "support.function.construct.output",
+			"settings": {
+				"foreground": "#F92672",
+        "fontStyle": "italic"
+			}
+		},
+
+    {
+			"name": "PHP Exceptions",
+			"scope": ["support.class.builtin.php", "support.class.exception.php"],
+			"settings": {
+				"foreground": "#F92672",
+        "fontStyle": "italic"
+			}
+		},
+
+    
+
+    
+
+    
+	//#endregion
+  
+  //#region Brackets, Braces , Parens & etc
+   {
+            "name": "Brackets, braces, parens, etc.",
+            "scope": [
+                "keyword.operator.other.powershell",
+                "keyword.other.statement-separator.powershell",
+                "meta.brace.round",
+                "meta.function-call punctuation",
+                "punctuation.definition.arguments.begin",
+                "punctuation.definition.arguments.end",
+                "punctuation.definition.entity.begin",
+                "punctuation.definition.entity.end",
+                "punctuation.definition.tag.cs",
+                "punctuation.definition.type.begin",
+                "punctuation.definition.type.end",
+                "punctuation.section.scope.begin",
+                "punctuation.section.scope.end",
+                "punctuation.terminator.expression.php",
+                "storage.type.generic.java",
+                "string.template meta.brace",
+                "string.template punctuation.accessor"
+            ],
+            "settings": {
+                "foreground": "#F8F8F2"
+            }
+    },
+  //#endregion
+
+  //#region Tags
+    //PHP //
+    {
+      "name": "PHP Tag",
+      "scope": ["punctuation.section.embedded"],
+      "settings": {
+        "foreground": "#AE81FF",
+        "fontStyle": "italic bold",
+      }
+    },
+  //#endregion
+  
+
+  
+  //#region General Options
+   {
       "scope": [
         "variable.function",
         "variable.annotation",
@@ -609,5 +757,6 @@
         "foreground": "#F8F8F8"
       }
     }
+  //#endregion
   ]
 }

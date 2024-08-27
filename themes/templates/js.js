@@ -84,6 +84,7 @@ const menorQue = 3 < 5;
 const maiorOuIgual = 5 >= 5;
 const menorOuIgual = 3 <= 5;
 
+
 // Destructuring
 const { chave } = objeto;
 const [primeiroElemento] = array;
