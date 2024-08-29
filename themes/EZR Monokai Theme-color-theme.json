@@ -226,10 +226,17 @@
   },
   "semanticHighlighting": true,
 
+  "semanticTokenColors": {
+    "magicFunction": "#A6E22E",
+    "class": "#66D9EF",
+    "property": "#F92572",
+    "module": "#66D9EF"
+  },
+
   "tokenColors": [
 
   //#region Base Schemas and Colors
-{
+  {
 			"name": "General punctuation",
 			"scope": ["punctuation", "keyword.operator"],
 			"settings": {
@@ -282,6 +289,16 @@
         "foreground": "#AE81FF"
       }
     },
+
+    // Python //
+    {
+      "name": "Function Decorator",
+      "scope": "meta.function.decorator.python",
+      "settings": {
+        "foreground": "#FD971E"
+      }
+    },
+    
 
     
 
@@ -462,7 +479,7 @@
 
      {
       "name": "Support function PHP",
-      "scope": ["support.function.constructor.php", "support.function.string.php", "support.function.array.php"],
+      "scope": ["support.function.constructor.php", "support.function.construct.php ", "support.function.string.php", "support.function.array.php"],
       "settings": {
         "fontStyle": "",
         "foreground": "#A6E22E"
@@ -496,11 +513,19 @@
 			}
 		},
 
-    
+    // PYTHON //
+
+    {
+			"name": "Support Functions",
+			"scope": ["support.type.python"],
+			"settings": {
+				"foreground": "#A6E22E",
+        "fontStyle": "italic"
+			}
+		},
 
     
 
-    
 	//#endregion
   
   //#region Brackets, Braces , Parens & etc
