@@ -3,7 +3,11 @@
   "displayName": "Monokai Blaze",
   "description": "Monokai Blaze is a vibrant, high-contrast theme inspired by the classic Monokai color scheme, with influences from the KTRZ Monokai theme.",
   "publisher": "ZUZIKADEV",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rodriguessz/EZR-Monokai-Theme"
+  },
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.92.0"
   },
