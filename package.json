@@ -1,20 +1,22 @@
 {
-  "name": "ezr-monokai-theme",
-  "displayName": "EZR Monokai Theme",
-  "description": "The EZR Monokai is a theme inspired on KTRZ Monokai for ZED IDE, but in VScode!",
-  "version": "0.0.2",
+  "name": "monokai-blaze-theme",
+  "displayName": "Monokai Blaze",
+  "description": "Monokai Blaze is a vibrant, high-contrast theme inspired by the classic Monokai color scheme, with influences from the KTRZ Monokai theme.",
+  "publisher": "ZUZIKADEV",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.92.0"
   },
   "categories": [
     "Themes"
   ],
+  "icon": "images/icon.png",
   "contributes": {
     "themes": [
       {
-        "label": "EZR Monokai Theme",
+        "label": "Monokai Blaze Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/EZR Monokai Theme-color-theme.json"
+        "path": "./themes/Monokai Blaze Theme-color-theme.json"
       }
     ]
   }

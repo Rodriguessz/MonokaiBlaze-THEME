@@ -1,5 +1,5 @@
 {
-  "name": "ezr-monokai",
+  "name": "monokai-blaze",
   "type": "dark",
   "colors": {
     "activityBar.background": "#313437",
@@ -625,6 +625,33 @@
         "foreground": "#E2D873"
       }
     },
+
+    // C++ //
+
+
+    {
+      "name": "Include Library",
+      "scope": ["punctuation.definition.directive.cpp"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#F92672"
+      }
+    },
+
+    {
+      "name": "Meta Body",
+      "scope": ["meta.body.class.cpp"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#66D9EF"
+      }
+    },
+
+
+  
+
+    
+
   
     //#endregion
   //#endregion
@@ -647,7 +674,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#66D9EF"
+        "foreground": "#A6E22E"
       }
     },
     

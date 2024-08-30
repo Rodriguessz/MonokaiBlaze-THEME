@@ -124,3 +124,6 @@ funcaoNamespace();
 // Include e Require
 include 'outro_arquivo.php';
 require 'outro_arquivo_necessario.php';
+
+
+json_decode()

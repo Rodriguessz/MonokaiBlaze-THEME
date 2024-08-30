@@ -1,16 +1,36 @@
-# ezr-monokai-theme README
+# Monokai Blaze
 
-## Working with Markdown
+Monokai Blaze is a vibrant, high-contrast theme inspired by the classic Monokai color scheme, with influences from the KTRZ Monokai theme. Designed for developers who want a bold and energetic look in their coding environment, Monokai Blaze enhances code readability with its vivid colors and clear differentiation between syntax elements
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+![Theme Preview](images/ThemePreview.png)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Installation
 
-## For more information
+### Via Visual Studio Code
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+1. Open VSCode.
+2. Go to the Extensions tab (`Ctrl+Shift+X`).
+3. Search for `Theme Name`.
+4. Click **Install**.
 
-**Enjoy!**
+### Manually
+
+1. Download the theme repository.
+2. Extract the contents to your VSCode extensions folder:
+   - **Windows:** `%USERPROFILE%\.vscode\extensions`
+   - **macOS/Linux:** `~/.vscode/extensions`
+3. Restart VSCode and select the theme from `Preferences > Color Theme`.
+
+## Language Support
+
+Monokai Blaze has been tested and offers full support for a wide range of programming languages and file types. The theme ensures vibrant syntax highlighting and clear differentiation for:
+
+- JavaScript
+- PHP
+- Python
+- Java
+- C++
+- HTML
+- CSS
+
+
