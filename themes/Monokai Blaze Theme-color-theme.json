@@ -889,7 +889,32 @@
       "settings": {
         "foreground": "#F8F8F8"
       }
+    },
+
+
+    // LOG FILES //
+
+    {
+      "name": "Log Dates",
+      "scope": "log.date",
+      "settings": {
+        "foreground": "#FD971E"
+      }
+    },
+
+    {
+      "name": "Text Log",
+      "scope": "text.log",
+      "settings": {
+        "foreground": "#e0b784"
+      }
     }
+
+    
+
+    
+    
+
   //#endregion
   ]
 }
