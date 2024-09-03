@@ -2,6 +2,11 @@
 
 All notable changes to the "Monokai Blaze" extension will be documented in this file.
 
+## [0.0.5] - 2024-08-30
+
+### Added
+- Support for additional languages: C, Go, C++, Ruby & Rust.
+
 ## [0.0.4] - 2024-08-30
 
 ### Added
