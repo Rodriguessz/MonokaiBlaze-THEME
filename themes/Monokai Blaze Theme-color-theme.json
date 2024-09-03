@@ -332,17 +332,6 @@
 
     },
 
-    {
-
-      "name": "Keyword",
-      "scope": "keyword.operator",
-      "settings": {
-        "foreground": "#F92572"
-      }
-      
-
-    },
-
     
 
     

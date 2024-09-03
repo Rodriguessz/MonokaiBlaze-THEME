@@ -2,6 +2,11 @@
 
 All notable changes to the "Monokai Blaze" extension will be documented in this file.
 
+## [0.0.6] - 2024-08-30
+
+### Changed
+- Color for keyword operators: #F92572 > #ffffff.
+
 ## [0.0.5] - 2024-08-30
 
 ### Added
