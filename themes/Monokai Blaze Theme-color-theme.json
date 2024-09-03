@@ -310,10 +310,42 @@
       }
     },
 
-    
+
+    // C // 
+
+    {
+      "name": "Meta Block",
+      "scope": "meta.block.c",
+      "settings": {
+        "foreground": "#FD971E"
+      }
+    },
+
+    {
+
+      "name": "Primitive",
+      "scope": "storage.type.built-in.primitive.c",
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+      
+
+    },
+
+    {
+
+      "name": "Keyword",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#F92572"
+      }
+      
+
+    },
 
     
 
+    
 	//#endregion
 	
 	//#region String Declaration and Template Strings
