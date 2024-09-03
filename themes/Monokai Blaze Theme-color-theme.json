@@ -297,6 +297,19 @@
         "foreground": "#FD971E"
       }
     },
+
+
+    // GO //
+
+
+    {
+      "name": "Variable Property Declaration",
+      "scope": "variable.other.property.go",
+      "settings": {
+        "foreground": "#FD971E"
+      }
+    },
+
     
 
     
@@ -543,6 +556,26 @@
         "fontStyle": "italic"
 			}
 		},
+
+
+    // GO //
+
+    {
+      "name": "Entity Name",
+      "scope": "entity.name.type.go",
+      "settings": {
+        "foreground": "#66D9EF"
+      }
+    },
+
+    {
+      "name": "Packages",
+      "scope": "entity.name.type.package.go",
+      "settings": {
+        "foreground": "#FD971E"
+      }
+    },
+
 
     
 

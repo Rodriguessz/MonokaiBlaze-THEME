@@ -1,0 +1,5 @@
+[2024-09-02 14:35:22] [INFO] Executando query: SELECT * FROM users WHERE id = ? [PARAMS: 42]
+[2024-09-02 14:35:23] [INFO] Executando query: UPDATE orders SET status = 'shipped' WHERE id = ? [PARAMS: 128]
+[2024-09-02 14:36:01] [ERROR] Falha ao executar query: INSERT INTO payments (user_id, amount) VALUES (?, ?) [PARAMS: 42, 99.99] - ERROR: Duplicate entry '42' for key 'PRIMARY'
+[2024-09-02 14:36:45] [INFO] Executando query: DELETE FROM sessions WHERE session_id = ? [PARAMS: 'abcdef12345']
+[2024-09-02 14:37:10] [INFO] Executando query: SELECT * FROM products WHERE category = ? AND price < ? [PARAMS: 'electronics', 500]
