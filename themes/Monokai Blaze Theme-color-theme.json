@@ -224,8 +224,8 @@
     "tree.indentGuidesStroke": "#5c6166",
     "widget.shadow": "#00000033"
   },
-  "semanticHighlighting": true,
 
+  "semanticHighlighting": true,
   "semanticTokenColors": {
     "magicFunction": "#A6E22E",
     "class": "#66D9EF",
@@ -234,7 +234,6 @@
   },
 
   "tokenColors": [
-
   //#region Base Schemas and Colors
   {
 			"name": "General punctuation",
@@ -520,6 +519,27 @@
 			"scope": ["support.type.python"],
 			"settings": {
 				"foreground": "#A6E22E",
+        "fontStyle": "italic"
+			}
+		},
+
+
+    // C++ //
+
+    {
+			"name": "Entity Resolution",
+			"scope": ["entity.name.scope-resolution.cpp"],
+			"settings": {
+				"foreground": "#66D9EF",
+        "fontStyle": "italic"
+			}
+		},
+
+    {
+			"name": "Class method",
+			"scope": ["source.cpp"],
+			"settings": {
+				"foreground": "#F92672",
         "fontStyle": "italic"
 			}
 		},
