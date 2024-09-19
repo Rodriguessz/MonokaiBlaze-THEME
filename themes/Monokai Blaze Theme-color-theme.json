@@ -327,10 +327,58 @@
       "scope": "storage.type.built-in.primitive.c",
       "settings": {
         "foreground": "#66D9EF"
-      }
-      
-
+      },
     },
+
+
+    // REACT //
+    {
+      "name": "Context React",
+      "scope": "variable.other.constant.object.jsx",
+      "settings": {
+        "foreground": "#66D9EF"
+      },
+    },
+
+    {
+      "name": "Component props",
+      "scope": "    entity.other.attribute-name.js.jsx",
+      "settings": {
+        "foreground": "#A6E22E"
+      },
+    },
+
+    {
+      "name": "Component props values",
+      "scope": "variable.other.constant.object.jsx",
+      "settings": {
+        "foreground": "#FD971E"
+      },
+    },
+
+    {
+      "name": "Component props keys",
+      "scope": "punctuation.section.embedded.begin.js.jsx, punctuation.section.embedded.end.js.jsx",
+      "settings": {
+        "foreground": "#FFFFFF"
+      },
+    },
+
+    {
+      "name": "React component",
+      "scope": "support.class.component.js.jsx",
+      "settings": {
+        "foreground": "#66D9EF"
+      },
+    },
+
+
+    
+    
+
+
+
+    
 
     
 

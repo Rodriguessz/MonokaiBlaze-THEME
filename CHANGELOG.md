@@ -2,6 +2,11 @@
 
 All notable changes to the "Monokai Blaze" extension will be documented in this file.
 
+## [0.0.7] - 2024-08-30
+
+### Changed
+- Support for additional tools: React.js 
+
 ## [0.0.6] - 2024-08-30
 
 ### Changed

@@ -32,5 +32,8 @@ Monokai Blaze has been tested and offers full support for a wide range of progra
 - C++
 - HTML
 - CSS
+- Ruby
+- Rust
+
 
 
