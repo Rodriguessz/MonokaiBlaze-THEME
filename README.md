@@ -1,39 +1,29 @@
 # Monokai Blaze
 
-Monokai Blaze is a vibrant, high-contrast theme inspired by the classic Monokai color scheme, with influences from the KTRZ Monokai theme. Designed for developers who want a bold and energetic look in their coding environment, Monokai Blaze enhances code readability with its vivid colors and clear differentiation between syntax elements
+![Badge de status do projeto](https://img.shields.io/badge/status-estável-brightgreen)
 
-![Theme Preview](images/ThemePreview.png)
+Monokai Blaze é um tema vibrante e de alto contraste para Visual Studio Code, inspirado no clássico esquema de cores Monokai, com influências do tema KTRZ Monokai. Ideal para desenvolvedores que buscam uma aparência energética e ousada no ambiente de codificação, o tema realça a legibilidade do código com cores vivas e uma diferenciação clara entre os elementos de sintaxe.
 
-## Installation
+## Prévia do Tema
+
+![Preview do Tema](link-para-screenshot-ou-gif)
+
+## Instalação
 
 ### Via Visual Studio Code
 
-1. Open VSCode.
-2. Go to the Extensions tab (`Ctrl+Shift+X`).
-3. Search for `Theme Name`.
-4. Click **Install**.
+1. Abra o VSCode.
+2. Acesse a aba de Extensões (Ctrl+Shift+X).
+3. Busque por **Monokai Blaze**.
+4. Clique em **Instalar**.
+5. Ative o tema em **Preferências > Tema de Cores**.
 
-### Manually
+### Manualmente
 
-1. Download the theme repository.
-2. Extract the contents to your VSCode extensions folder:
-   - **Windows:** `%USERPROFILE%\.vscode\extensions`
-   - **macOS/Linux:** `~/.vscode/extensions`
-3. Restart VSCode and select the theme from `Preferences > Color Theme`.
-
-## Language Support
-
-Monokai Blaze has been tested and offers full support for a wide range of programming languages and file types. The theme ensures vibrant syntax highlighting and clear differentiation for:
-
-- JavaScript
-- PHP
-- Python
-- Java
-- C++
-- HTML
-- CSS
-- Ruby
-- Rust
-
+1. Faça o download do repositório do tema.
+2. Extraia o conteúdo na pasta de extensões do VSCode:
+   - Windows: `%USERPROFILE%\.vscode\extensions`
+   - macOS/Linux: `~/.vscode/extensions`
+3. Reinicie o VSCode e selecione o tema em **Preferências > Tema de Cores**.
 
 
