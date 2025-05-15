@@ -6,7 +6,7 @@ Monokai Blaze é um tema vibrante e de alto contraste para Visual Studio Code, i
 
 ## Prévia do Tema
 
-![Preview do Tema](link-para-screenshot-ou-gif)
+![Preview do Tema](theme.png)
 
 ## Instalação
 
